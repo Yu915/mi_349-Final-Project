@@ -77,11 +77,18 @@ p{
 }
 .service-area{
     background: linear-gradient(90deg,rgb(245, 239, 239),rgb(248, 165, 206),rgb(252, 178, 246) );
+    height: 1000px;
   
 }
 
 html {
     scroll-behavior: smooth;
+     background: url(images/bg.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
 }
 
 
@@ -93,7 +100,7 @@ html {
     display: flex;
     background: linear-gradient(90deg,rgb(0, 0, 0),rgb(248, 165, 206),rgb(0, 0, 0) );
     border-top: 10px solid rgb(241, 209, 236);
-    height: 900px;
+    height: 1000px;
     border-bottom: 10px solid rgb(247, 214, 241);
 }
 
@@ -108,7 +115,7 @@ html {
     margin-left: 43%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 
 .about-area h1{
@@ -130,6 +137,7 @@ html {
 }
 
 .cat-area {
+    position: relative;
     background: url("back2.jpg");
     height: 1200px;
 }
@@ -138,10 +146,11 @@ html {
     font-size: 60px;
     margin: auto;
     font-family: fantasy;
-    
+    margin-top: 3%;
 }
 
 .postcard  {
+    position: relative;
     background: linear-gradient(90deg,rgb(245, 239, 239),rgb(248, 165, 206),rgb(252, 178, 246) );
     border-radius: 15px;
     margin: 150px auto;
@@ -248,4 +257,11 @@ button{
 
 @media screen and (min-width:1200px){
     #page{ width: 1100px; }#content,.div1{width: 730px;}#secondary{width:310px}
+}
+
+.service-area p {
+    position: relative;
+    margin: 3% 5% 0;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
 }

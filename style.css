@@ -116,7 +116,7 @@ h2 {
     margin-top: -10px;
 }
 
-a[href="index2.html"] {
+a[href="homepage.html"] {
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(255, 255, 255);  
@@ -132,3 +132,11 @@ a[href="index2.html"] {
 @media screen and (min-width:1200px){
     #page{ width: 1100px; }#content,.div1{width: 730px;}#secondary{width:310px}
 }
+
+html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
