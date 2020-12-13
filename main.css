@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 10%;
+}
+
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+a{
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: #000;
+}
+
+h1{
+   color: rgb(255, 255, 255);
+   font-size: 3em;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+}
+h4 {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+}
+
+.page2 {
+    text-align: center;
+    margin: 40px;
+    padding-left: 20px;
+    margin-top: 20px;
+ }
+
+ a[href="index2.html"] {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);  
+    text-decoration: none;
+
+   
+}
+
+.banner-area{
+    position: relative;
+    background-image: url("B3.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.korean-part, .chinese-part, .American-part, .Europe-part{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+    
+    
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.korean-part {
+    position: relative;
+    display: flex;
+    background: linear-gradient(90deg,rgb(120, 111, 245),rgb(248, 165, 206),rgb(255, 252, 252) );
+    border-top: 10px solid rgb(241, 209, 236);
+    height: 900px;
+    border-bottom: 10px solid rgb(247, 214, 241);
+}
+
+.Europe-part{
+    position: relative;
+    background: linear-gradient(90deg,rgb(107, 126, 236),rgb(248, 165, 206),rgb(255, 255, 255) );
+    border-bottom: 10px solid rgb(247, 214, 241);
+    border-top: 10px solid rgb(241, 209, 236);
+}
+
+.chinese-part{
+    position: relative;
+    background: linear-gradient(90deg,rgb(124, 168, 252),rgb(248, 165, 206),rgb(255, 255, 255) );
+    border-bottom: 10px solid rgb(247, 214, 241);
+    border-top: 10px solid rgb(241, 209, 236);
+}
+
+.American-part{
+    position: relative;
+    background: linear-gradient(90deg,rgb(134, 96, 240),rgb(248, 165, 206),rgb(255, 255, 255) );
+    border-bottom: 10px solid rgb(247, 214, 241);
+    border-top: 10px solid rgb(241, 209, 236);
+}
+
+button{
+    position: relative;
+    font-size: 30px;
+    font-family: fantasy;
+    background: linear-gradient(90deg,rgb(245, 239, 239),rgb(248, 165, 206),rgb(252, 178, 246) );
+    border-radius: 15%;
+    position: relative;
+}
+
+p {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+ 
+   
+    
+}
+
+img{
+    box-shadow: rgb(252, 198, 247) 0 0 20px;
+    border: 10px solid rgb(245, 178, 245);
+    
+}
+
+
+@media screen and (min-width:1200px){
+    #page{ width: 1100px; }#content,.div1{width: 730px;}#secondary{width:310px}
+}

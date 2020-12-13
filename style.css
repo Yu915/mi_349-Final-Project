@@ -1,0 +1,134 @@
+
+body{
+    background-image: url("back.jpg");
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.switch span{
+    color: rgb(62, 202, 236);
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.switch span.active{
+    color: rgb(255, 255, 255);
+}
+
+.panel{
+    width: 100%;
+    margin: 10rem 0 0;
+    position: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5cm;
+}
+
+form{
+    width: 100%;
+    margin: 3rem 0 0;
+}
+
+form .input{
+    position: relative;
+    opacity: 1;
+    height: 2rem;
+    width: 100%;
+    margin: 2rem 0;
+    transition: .4s;
+}
+
+.input input{
+    outline: none;
+    width: 100%;
+    border: none;
+    border-bottom: .1rem solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 2em;
+}
+
+.input::after{
+    content: attr(placeholder);
+    position: absolute;
+    left: 0;
+    top: -100%;
+    font-size: 1.5em;
+    transition: .3s;
+}
+
+.input.focus::after{
+    top: -70%;
+    font-size: 1rem;
+}
+
+.login .input#email,
+.login .input#repeat{
+   margin: 0;
+   height: 0;
+   opacity: 0;
+}
+
+form span{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    cursor: pointer;
+}
+form button{
+    border: none;
+    outline: none;
+    margin: 2.5rem 40px 0;
+    width: 80%;
+    height: 3.5rem;
+    border-radius: 3rem;
+    background: linear-gradient(90deg,rgb(57, 168, 241),rgb(120, 205, 238),rgb(155, 222, 248) );
+    box-shadow: 0 0 8px rgb(103, 89, 235);
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    color: white;
+    margin-top: .2rem;
+}
+
+.main {
+    margin: 50px auto;
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+.main .avatar {
+    box-shadow: black 0 0 20px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+
+a[href="index2.html"] {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);  
+    text-decoration: none;
+}
+
+.page1 {
+   text-align: center;
+   margin: 40px;
+   padding-left: 20px;
+}
+
+@media screen and (min-width:1200px){
+    #page{ width: 1100px; }#content,.div1{width: 730px;}#secondary{width:310px}
+}

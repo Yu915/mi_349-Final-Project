@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 10%;
+}
+
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+a{
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: #000;
+}
+
+.banner-area{
+    position: relative;
+    background-image: url("index2back.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.cat-area, .service-area {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+.text-part{
+    width: 65%;
+    height: 80%;
+
+}
+
+p{
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 10em;
+}
+.service-area{
+    background: linear-gradient(90deg,rgb(245, 239, 239),rgb(248, 165, 206),rgb(252, 178, 246) );
+  
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.music{
+   margin-left: 2em;
+}
+
+.about-area {
+    display: flex;
+    background: linear-gradient(90deg,rgb(0, 0, 0),rgb(248, 165, 206),rgb(0, 0, 0) );
+    border-top: 10px solid rgb(241, 209, 236);
+    height: 900px;
+    border-bottom: 10px solid rgb(247, 214, 241);
+}
+
+.about-area .m{
+    width: 15%;
+    margin-left: 70%;
+    margin-top: 2%;
+}
+
+.about-area p{
+    width: 70%;
+    margin-left: 43%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1.6em;
+}
+
+.about-area h1{
+    color: white;
+    font-size: 80px;
+    margin: 100px 100px 0;
+    font-family: fantasy;
+}
+
+.cat-area h1{
+     font-size: 100px;
+     text-decoration: none;
+     text-align: center;
+}
+
+.cat-area p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+}
+
+.cat-area {
+    background: url("back2.jpg");
+    height: 1200px;
+}
+
+.service-area h1{
+    font-size: 60px;
+    margin: auto;
+    font-family: fantasy;
+    
+}
+
+.postcard  {
+    background: linear-gradient(90deg,rgb(245, 239, 239),rgb(248, 165, 206),rgb(252, 178, 246) );
+    border-radius: 15px;
+    margin: 150px auto;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    box-shadow: rgb(252, 198, 247) 0 0 20px;
+    border: 10px solid rgb(245, 178, 245);
+}
+
+.postcard .avatar {
+    box-shadow: rgb(114, 114, 114) 0 0 20px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts li {
+    width: 50px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.contacts li a img:hover {
+    opacity: 0.5;
+
+    transition: opacity ease-in-out 0.2s;
+}
+
+img {
+    width: 100%;
+}
+
+.postcard h2 {
+   margin: 15px 0;
+   color:black;
+   font-size: 60px;
+}
+
+.postcard h3 {
+   margin: 0;
+   font-weight: 100;
+   font-size: 30px;
+}
+
+.signup-area h1{
+     font-size: 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: rgb(243, 132, 132);  
+     margin-left: 5cm; 
+     margin-top: 2em;
+}
+.signup-area h2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    color: rgb(243, 132, 132);
+    margin-left: 12cm; 
+    margin-top: 2em;
+}
+.signup-area h3{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    color: rgb(243, 132, 132);
+    margin-left: 15cm; 
+    margin-top: 2em;
+}
+
+.signup-area{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    background: #414040;
+    
+}
+
+a[href="index.html"] {
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(243, 194, 237);  
+    text-decoration: none;
+    margin-left: 31cm;
+}
+
+.copyright{
+    margin-left: 50px;
+    padding: 20px;
+}
+
+button{
+    color: white;
+    font-size: 1em;
+    background-color: black;
+}
+
+
+@media screen and (min-width:1200px){
+    #page{ width: 1100px; }#content,.div1{width: 730px;}#secondary{width:310px}
+}
