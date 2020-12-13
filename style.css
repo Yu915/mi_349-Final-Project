@@ -133,10 +133,3 @@ a[href="homepage.html"] {
     #page{ width: 1100px; }#content,.div1{width: 730px;}#secondary{width:310px}
 }
 
-html { 
-    background: url(images/bg.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
