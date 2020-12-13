@@ -1,0 +1,6 @@
+This mi349 Final Project is finished by my own and followed  some tutorials.
+All pictrues resources came from google.
+audio source came from https://www.epidemicsound.com/music/featured/
+
+Conclusion】
+My original intention was to make a music website, but then I hesitated for a long time considering the copyright issue, and finally changed to a music interactive platform. In contrast, I don't have too much copywriting, so I can only design the website as beautiful as possible.
